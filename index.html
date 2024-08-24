@@ -10,12 +10,16 @@
 <link rel="stylesheet" href="Youtube-styles/header.css">
 <link rel="stylesheet" href="Youtube-styles/video.css">
 <link rel="stylesheet" href="Youtube-styles/sidebar.css">
+<link rel="stylesheet" href="Youtube-styles/mobile.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <title>Youtube</title>
 </head>
 <body>
   <div class="header">
     <div class="left-section">
+      <button class="js-hamburger">
       <img src="header-icons/hamburger-menu.svg" alt="" class="hamburger-menu">
+    </button>
       <img src="header-icons/youtube-logo.svg" alt="" class="youtube-logo">
 
     </div>
@@ -78,6 +82,68 @@
   <div>Library</div>
 </div>
 </div>
+
+<div class="sidebar"> 
+ <div class="sidebar-link">
+  <img src="sidebar-icons/home.svg" alt="">
+  <div>Home</div>
+</div>
+ <div class="sidebar-link">
+  <img src="sidebar-icons/explore.svg" alt="">
+  <div>Explore</div>
+</div>
+ <div class="sidebar-link">
+  <img src="sidebar-icons/subscriptions.svg" alt="">
+  <div>Subscriptions</div>
+</div>
+ <div class="sidebar-link">
+  <img src="sidebar-icons/originals.svg" alt="">
+  <div>Originals</div>
+</div>
+ <div class="sidebar-link">
+  <img src="sidebar-icons/youtube-music.svg" alt="">
+  <div>YouTube Music</div>
+</div>
+ <div class="sidebar-link">
+  <img src="sidebar-icons/library.svg" alt="">
+  <div>Library</div>
+</div>
+</div>
+
+<div class="mobile">
+<div class="mobile-sidebar"> 
+  <div class="sidebar-link">
+   <img src="sidebar-icons/home.svg" alt="">
+   <div>Home</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="sidebar-icons/explore.svg" alt="">
+   <div>Explore</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="sidebar-icons/subscriptions.svg" alt="">
+   <div>Subscriptions</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="sidebar-icons/originals.svg" alt="">
+   <div>Originals</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="sidebar-icons/youtube-music.svg" alt="">
+   <div>YouTube Music</div>
+ </div>
+  <div class="sidebar-link">
+   <img src="sidebar-icons/library.svg" alt="">
+   <div>Library</div>
+ </div>
+ <button class="close" onclick="closeBar()">
+  <i class="bi bi-x-circle-fill"></i>
+</button>
+ </div>
+</div>
+
+
+
   <div class="container-grid">
   <div class="video-preview">
     <div class="thumbnail-row"> 
@@ -303,6 +369,9 @@
   
   </div>
   <marquee behavior="" direction="right" class="marq">This is a demo YouTube Website Created By Segun.</marquee>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>

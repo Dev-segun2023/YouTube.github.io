@@ -4,9 +4,10 @@
   bottom: 0;
   top: 55px;
   background-color: white;
-  width: 72px;
-  z-index: 200;
+  width: 100px;
+  z-index: 300;
   padding-top: 5px;
+  transition: display 2s;
 }
 
 .sidebar-link{
@@ -29,3 +30,36 @@
   font-size: 10px;
   font-weight: 700;
 }
+
+@media screen and (max-width:600px){
+.sidebar{
+display:none;
+}
+
+.youtube-logo{
+  display: none;
+}
+
+body{
+  padding-left: 24px;
+}
+  
+}
+
+@media screen and (min-width:600px){
+  .hamburger-menu{
+    display: none;
+  }
+}
+
+/* @media screen and (max-width:600px){
+  .mobile{
+  display:block
+  }
+
+  body{
+    padding-left: 24px;
+  }
+
+  } */
+

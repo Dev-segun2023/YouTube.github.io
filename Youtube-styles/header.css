@@ -9,13 +9,21 @@
   left: 0;
   background-color: white;
   border-bottom: 1px solid rgb(212, 209, 209);
-  z-index: 100;
+  z-index: 1000;
 }
 .left-section{
-/* background-color: lightblue ; */
-/* width: 150px; */
+
 align-items: center;
 display: flex;
+
+}
+.header .js-hamburger{
+  border: none;
+  background-color: white;
+  
+}
+.header .js-hamburger:active{
+background-color:rgb(243, 248, 250);
 
 }
 .hamburger-menu{
@@ -39,23 +47,27 @@ display: flex;
   max-width: 500px;
 }
 .search-bar{
-  font-size: 16px;
+  font-size: 12px;
   height: 36px;
   flex: 1;
   padding-left: 10px;
   border: 1px solid rgb(207, 190, 190);
   border-radius: 2px;
   box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
-  width: 0;
+  width: 20px;
+  transition:width 0.9s;
+  /* overflow-x: auto; */
+
 
 }
 .search-bar::placeholder{
   font-family: Roboto,Arial;
-  font-size: 16px;
+  font-size: 12px;
   
 }
 .search-bar:focus{
 outline: none;
+transition:width 0.9s;
 }
 
 .search-button{
@@ -150,7 +162,7 @@ outline: none;
   align-items: center;
   justify-content: space-between;
   margin-right: 20px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .upload{
@@ -263,4 +275,22 @@ outline: none;
 }.profile-picture-icon{
   height: 32px;
   border-radius: 16px;
+}
+
+
+
+@media screen and (max-width:560px){
+  .middle-section{
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+  .search-button{
+    width: 55px;
+  }
+
+  .search-bar:focus{
+    width: 60px;
+  }
+
+  
 }
