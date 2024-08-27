@@ -10,7 +10,7 @@ The project is divided into 2 sections:
 Each section is further divided into sub-sections, each containing a set of challenges that test your knowledge and skills in that area.
 
 I intend to revisit this project in the future, adding javascript for better functionality and better responsiveness from largest to smallest possible screen sizes. Targetting the header especially. Though, the project is responsive.
-
+javascript has been added to this project... we now functionality to some point on this demo youtube website. 
 
 
 I hope you find this project meaningful , helpful and enjoyable!
