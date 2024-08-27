@@ -26,7 +26,7 @@
   background-color: rgba(240, 248, 255, 0.144);
   backdrop-filter: blur(3px) brightness(80%);
   z-index: 200;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   /* display: none; */
   
 
